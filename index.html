@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Theme Made By www.w3schools.com -->
+  <!-- Stylesheets and Scripts -->
   <title>Evathon</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,6 +13,7 @@
   <link href="css/fontawesome.min.css" rel="stylesheet" type="text/css">
   <link href="fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="shortcut icon" type="image/ico" href="/favicon.ico"/>
   
   <style>
   body {
@@ -204,9 +205,12 @@
     width: 286px;
     height: 120;
   }
-  .about-img1{
-    height: 240px;
-    width: 400px;
+  .about-img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   .bg-jumbo{
     background-image: url(img/tech1.png);
@@ -214,6 +218,7 @@
     background-repeat: no-repeat;
     background-position: right;
   }
+
   </style>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -280,7 +285,7 @@
       <br><button class="btn btn-default btn-lg">Get in Touch</button>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-signal logo"></span>
+      <img src="img/wings-logo.png" class="about-img" alt="">
     </div>
   </div>
 </div>
@@ -288,7 +293,7 @@
 <div class="container-fluid bg-grey">
   <div class="row">
     <div class="col-sm-4">
-      <img src="img/geca-logo1.png" alt="">
+      <img src="img/geca-logo1.png" class="about-img" alt="">
     </div>
     <div class="col-sm-8">
       <h2>The Institution</h2><br>
@@ -305,10 +310,10 @@
       <h2>About Wings</h2><br>
       <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <br><button class="btn btn-default btn-lg">Get in Touch</button>
+      
     </div>
     <div class="col-sm-4">
-      <img src="img/wings-logo.png" class="about-img1">
+      <img src="img/wings-logo.png" class="about-img">
     </div>
   </div>
 </div>
