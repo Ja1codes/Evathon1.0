@@ -13,7 +13,7 @@
   <link href="css/fontawesome.min.css" rel="stylesheet" type="text/css">
   <link href="fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <link rel="shortcut icon" type="image/ico" href="/favicon.ico"/>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
   
   <style>
   body {
@@ -59,6 +59,7 @@
     padding: 0 0 15px 0;
     border: none;
     border-radius: 0;
+    background-color: #395496;
   }
   .thumbnail img {
     width: 100%;
@@ -125,22 +126,21 @@
   }
   .navbar {
     margin-bottom: 0;
-    background-color: #f7f7f7;
+    background-color: #2c2c2c;
     z-index: 9999;
     border: 0;
-    font-size: 16px !important;
+    font-size: 12px !important;
     line-height: 1.42857143 !important;
     letter-spacing: 4px;
     border-radius: 0;
     font-family: Montserrat, sans-serif;
   }
   .navbar li a, .navbar .navbar-brand {
-    color: #323232 !important;
-    font-weight: 1000;
+    color: #fff !important;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #fff !important;
-    background-color: #506cab !important;
+    color: #395496 !important;
+    background-color: #fff !important;
   }
   .navbar-default .navbar-toggle {
     border-color: transparent;
@@ -149,7 +149,7 @@
   footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
-    color: #f4511e;
+    color: #fff;
   }
   .slideanim {visibility:hidden;}
   .slide {
@@ -213,13 +213,28 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .bg-jumbo{
+
+  .bg-dark-1{
+    background-color: #212529;
+  }
+     
+   .bg-jumbo{
     background-image: url(img/tech1.png);
-    background-size: 40%;
+    background-size: 25%;
     background-repeat: no-repeat;
     background-position: right;
+    
+    
   }
-
+  .bg-about-2{
+    background-color: #dcdfe8;
+  }
+  
+  .footer-bg{
+    background-color: #2c2c2c;
+  }
+  
+ 
   </style>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -232,22 +247,21 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-logo" href="#myPage"><img style="width: 100%;height: 100%;object-fit: contain;"src="sponsors/unnamed(1).png" style="margin: 0%; padding:0%
+      <a class="navbar-logo" href="#myPage"><img src="img/logo-bds.png" width="50%" style="margin: 0%; padding:0%
         "></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#about">ABOUT</a></li>
-        <li><a href="#rewards">REWARDS</a></li>
-        <li><a href="#faqs">FAQs</a></li>
         <li><a href="#services">SPONSERS</a></li>
+        <li><a href="#faqs">FAQs</a></li>
         <li><a href="#contact">CONTACT</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<div class="jumbotron text-center bg-dark bg-jumbo">
+<div class="jumbotron text-center bg-dark-1 bg-jumbo">
   
   <div class="row">
     <img src="img/small_tag.png" id="geca">
@@ -261,14 +275,7 @@
         
       </div>
       <div class="col-sm-6">
-        <i class="fas fa-2x fa-map-marker-alt text-white"> </i>
-
-        <div class="row">
-            
-        </div>
-        <div class="row">
-            
-        </div>
+        
       </div>
     
   </div>
@@ -278,6 +285,7 @@
 </div>
 
 <!-- Container (About Section) -->
+
 <div id="about" class="container-fluid">
   <div class="row">
     <div class="col-sm-8">
@@ -292,7 +300,7 @@
   </div>
 </div>
 
-<div class="container-fluid bg-grey">
+<div class="container-fluid bg-about-2">
   <div class="row">
     <div class="col-sm-4">
       <img src="img/geca-logo1.png" class="about-img" alt="">
@@ -321,26 +329,26 @@
 </div>
 
 <!-- Container (Sponsors Section) -->
-<div id="services" class="container-fluid text-center">
+<div id="services" class="container-fluid text-center sponsor-bg">
   <h2>SPONSORS</h2>
   <h4>najsnfjibasf</h4>
   <br>
   <div class="row slideanim">
     <div class="col-sm-4">
-      <img src="sponsors/download (4).png" alt="University Of Limerick">
+      <img src="sponsors/download (4).png" alt="">
     </div>
     <div class="col-sm-4">
-      <img src="sponsors/lero.jpg" alt="Lero">
+      <img src="sponsors/lero.jpg" alt="">
      
     </div>
     <div class="col-sm-4">
-      <img src="sponsors/Sfi_logo.png" alt="SFI">
+      <img src="sponsors/Sfi_logo.png" alt="">
     </div>
   </div>
   <br><br>
   <div class="row slideanim">
     <div class="col-sm-4">
-      <img src="sponsors/unnamed (1).png" alt="BDS">
+      <img src="sponsors/unnamed (1).png" alt="">
     </div>
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-certificate logo-small"></span>
@@ -371,6 +379,7 @@
         <p>Answer</p>
       </div>
     </div>
+
     <div class="col-sm-4">
       <div class="thumbnail">
         <p><strong>Question</strong></p>
@@ -398,7 +407,8 @@
       </div>
     </div>
   </div>
-  <br>
+</div>
+  
   
   
 
@@ -471,7 +481,7 @@ $(document).ready(function(){
   });
 })
 </script>
-<footer class="container-fluid text-center " style="margin: 0;">
+<footer class="container-fluid text-center footer-bg " style="margin: 0;">
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
