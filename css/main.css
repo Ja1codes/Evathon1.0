@@ -40,6 +40,8 @@ body {
     border: none;
     border-radius: 6px;
     background-color: #17a2b8;
+    /* Slow Shadow Effect*/
+    transition: box-shadow 0.5s;
     
     
   }
@@ -49,7 +51,8 @@ body {
     border: none;
     border-radius: 6px;
     background-color: #17a2b8;
-    box-shadow:4px 4px 7px rgb(32, 32, 32); 
+    box-shadow: 5px 0px 20px rgba(0,0,0, .5);
+    /* box-shadow:4px 4px 7px rgb(32, 32, 32);  */
     
   }
 
