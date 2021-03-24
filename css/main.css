@@ -21,7 +21,8 @@ body {
   .jumbotron {
     background-color: #212529;
     color: #fff;
-    padding: 100px 25px;
+    padding-top: 180px;
+    padding-bottom: 150px;
     font-family: Montserrat, sans-serif;
     height: 500px;
   }
